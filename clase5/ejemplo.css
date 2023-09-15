@@ -1,0 +1,16 @@
+body {
+    color: white;
+}
+
+#rojo {
+    background-color: red;
+    width: 250px;
+    padding: 20px;
+    border: 5px dashed black;
+    box-sizing: border-box;
+}
+#azul {
+    background-color: blue;
+    width: 250px;
+    margin: 20px;
+    }

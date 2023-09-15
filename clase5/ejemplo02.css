@@ -1,0 +1,21 @@
+.caja {
+    background-color: rgb(194, 194, 191);
+    width: 50%;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0 0 5px rgba(179, 177, 177, 0.5);
+    border: 10px solid white;
+    /*border-radius: 10px;*/
+    border-radius: 0 120px 0 0;
+}
+.textos {
+    background-color: yellow;
+    column-count: 3;
+    column-gap: 60px;
+    column-rule: 1px solid gray;
+    margin: 0;
+}
+.textos p {
+    margin: 0;
+    text-align: center;
+}
