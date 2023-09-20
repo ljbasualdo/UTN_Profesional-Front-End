@@ -1,0 +1,16 @@
+.caja {
+    margin: 200px;
+    background-color: lightblue;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    transition: all 0.3s ease; /* Las transiciones suelen ir declaradas en el contenedor, porque aplican a todo */
+    /*transform: rotate(-90deg);
+    transform: scale(1.2,0.6);*/
+}
+.caja:hover{
+    transform: scale(2);
+}
